@@ -1,0 +1,256 @@
+/* top start */
+.header {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    background: white;
+}
+.header img {
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* top :end */
+
+/* black bar start*/
+.black-nav {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #333;
+    font-size: 16px;
+}
+
+.wrap {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.black-nav a {
+    color: #b0b0b0;
+}
+.black-nav .wrap .black-nav-left {
+    float: left;
+}
+.black-nav .wrap .black-nav-right {
+    float: right;
+}
+.black-nav .wrap li {
+    float: left;
+    position: relative;
+}
+.black-nav .wrap li span {
+    color: wheat;
+    margin: 12px;
+}
+
+.download {
+    width: 124px;
+    height: 0px;
+    background-color: white;
+    box-shadow: 0 2px 5px #aaa;
+    position: absolute;
+    top: 50px;
+    left:40%;
+    margin-left: -62px;
+    overflow: hidden;
+}
+
+.download img {
+    width: 110px;
+    margin: 15px auto;
+}
+
+.download p {
+    color: #333;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: -35px;
+}
+
+.black-nav-left LI:hover>.download {
+    height: 150px;
+}
+
+.stri {
+    width: 0px;
+    height: 0px;
+    border-bottom: 8px solid white;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    margin-left: -8px;
+    display: none;
+}
+
+.black-nav-left>li:hover>.stri {
+    display: block;
+}
+
+.cart {
+    width: 140px;
+    height: 50px;
+    background-color: #424242;
+    margin-left: 25px;
+}
+.cart:hover {
+    background:#ff6700;
+}
+
+.cart:hover>a{
+    color: bisque;
+}
+
+.cart-list {
+    width: 316px;
+    height: 0px;
+    background: #fff   ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+    top: 50px;
+    color: #424242;
+    overflow: hidden;
+    line-height: 100px;
+}
+.cart:hover>.cart-list {
+    height: 100px;
+}
+/* black bar :end */
+
+
+/* white bar */
+.white-nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-top: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s;
+}
+
+.min-home {
+    left: -100px;
+}
+.min-logo {
+    left: 0;
+}
+
+.logo:hover>.min-home {
+    left: 0px;
+}
+.logo:hover>.min-logo {
+    left: 100px;
+}
+.nav-bar {
+    width: 800px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
+
+.search {
+    width: 296px;
+    height: 100px;
+    float: right;
+}
+
+.nav-bar li {
+    float: left;
+
+}
+
+.nav-bar li a {
+    color: #333;
+    padding: 0 20px;
+}
+.nav-bar li a:hover {
+    color: #ff6700;
+}
+
+.search input {
+    width: 244px;
+    height: 40px;
+    float: left;
+    border: 1px solid #101010;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 10px;
+}
+.search button {
+    width: 50px;
+    height: 40px;
+    float: right;
+    border: 1px solid #101010;
+    box-sizing: border-box;
+    margin-top: 30px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+
+.search button:hover {
+    background-color: #ff6700;
+    color: white;
+}
+
+.nav-bar-list {
+    width: 100%;
+    height: 215px;
+    background-color: white;
+    border-top: 1px solid #eee;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    position:absolute;
+    left: 0;
+    top: 100px;
+    display: none;
+}
+
+.nav-bar li:hover>.nav-bar-list {
+    display: block;
+}
+.nav-bar-list li {
+    padding: 20px;
+    line-height: normal;
+}
+.nav-bar-list .img-box {
+    width: 120px;
+    height: 120px;
+ }
+.nav-bar-list .img-box img {
+    width: 100%;
+    height: 100%;
+ }
+
+.nav-bar-list .name {
+    font-size: 12px;
+    color: #333;
+}
+
+.nav-bar-list .price {
+    font-size: 14px;
+    color: #ff6700;
+}
+
+/* white bar :end */
