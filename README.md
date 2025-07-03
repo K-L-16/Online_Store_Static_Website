@@ -1,33 +1,45 @@
 # Online Store Static Website
 
-A simple HTML & CSS demo of an online store homepage, featuring:
+A simple HTML & CSS demo of an online store homepage
 
-- **Top Banner**: Full-width header image  
-- **Black Nav Bar**: Category links, “Download App” QR dropdown, sign-in/register, cart preview  
-- **White Nav Bar**: Logo with hover swap, menu with hover submenu, search box  
-- **Banner Section**: Background image + left-side category list  
-- **Ad Section**: Icon list + three images  
-- **Product Showcase**: Featured image + product cards with hover effect  
-- **Footer**: Service links, help center, contact info, “Manual Customer Service” button  
-
+Key Features
 ---
+Navigation System
+---
+Dual navigation bars (black and white) with dropdown menus
 
-## Project Structure
+Interactive shopping cart with hover effect
 
-.
-├── css/
-│ ├── reset.css
-│ └── store.css
-├── images/
-│ ├── header.png
-│ ├── qrcode.png
-│ ├── logo.png
-│ ├── loogo2.png
-│ ├── city.jpg
-│ ├── gene.png
-│ ├── ad1.png
-│ ├── ad2.png
-│ ├── ad3.png
-│ ├── magic.png
-│ └── book.png
-└── index.html
+Download app QR code popup
+
+Logo with hover animation effect
+
+Product Display
+---
+Featured banner with sliding categories
+
+Advertisement section with multiple promotional images
+
+Organized product categories (Magic, Technology, Spaceships, etc.)
+
+Product cards with hover effects
+
+Technical Implementation
+---
+Clean HTML5 and CSS3 structure
+
+Responsive design using floats and positioning
+
+Interactive elements with CSS transitions and animations
+
+Properly structured content sections
+
+How to Use
+---
+-Clone the repository
+
+-Open index.html in a web browser
+
+-Explore the various sections and interactive elements
+
+
